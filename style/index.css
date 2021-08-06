@@ -103,14 +103,17 @@ body {
   line-height: 1.5;
   /* border: 2px solid red; */
   margin: 0 20%;
+  transition: 1.5s;
 }
 body button:hover {
 background-color: blue;
 color: rgb(0, 0, 0);
+transition: .4s;
 }
 ol,
 ul {
   list-style: none;
+  
 }
 blockquote,
 q {
@@ -296,7 +299,7 @@ s3-img {
 footer {
 background-color: pink;
 text-align: center;
-height: 10vh;
+height: 20vh;
 padding: 0.05%;
 background-color: rgb(84, 246, 246);
 /* border-color: rgb(58, 226, 43); */
